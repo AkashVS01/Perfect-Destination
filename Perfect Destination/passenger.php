@@ -74,11 +74,11 @@ navBarToggle.addEventListener('click', function ()
    <p>Name:</p>
    <input type="text" name="name" placeholder="Name" required>
    <p>Age:</p>
-   <input type="number" name="age" placeholder="age"><br>
+   <input type="number" name="age" placeholder="age" required><br>
    
    <label>Gender:</label>
       <div class="col-sm-8 gen" style="margin-top: 6px">
-            <input type="radio" id="femaleRadio" name="gender" value="Male">
+            <input type="radio" id="femaleRadio" name="gender" value="Male" >
             <label>Male</label>
             <input type="radio" id="maleRadio" name="gender" value="Female" style="margin-left: 10px">
             <label>Female</label>
@@ -88,9 +88,9 @@ navBarToggle.addEventListener('click', function ()
     <div class="b2">
       <h2>Contact Details:</p></h2><br>
       <p>E-mail:</p>
-      <input type="email" name="gmail" placeholder="Email">
+      <input type="email" name="gmail" placeholder="Email" required>
       <p>Phone no:</p>
-      <input type="text" name="phno" placeholder="Phone no">
+      <input type="text" name="phno" placeholder="Phone no" required>
     </div>
 
     <div class="flexbox">
