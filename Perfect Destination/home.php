@@ -91,13 +91,13 @@ navBarToggle.addEventListener('click', function ()
 									<div class="col-md-6">
 										<div class="form-group">
 											<span class="form-label">Leaving from (in caps)</span>
-								<input class="form-control" type="text" placeholder="City" name="src">
+								<input class="form-control" type="text" placeholder="City" name="src" required>
 										</div>
 									</div>
 									<div class="col-md-6">
 										<div class="form-group">
 											<span class="form-label">Going to (in caps)</span>
-								<input class="form-control" type="text" placeholder="City" name="des">
+								<input class="form-control" type="text" placeholder="City" name="des" required>
 										</div>
 									</div>
 								</div>
